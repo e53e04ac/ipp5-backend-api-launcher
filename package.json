@@ -24,10 +24,10 @@
     "event-emitter": "github:e53e04ac/event-emitter",
     "file-entry": "github:e53e04ac/file-entry",
     "file-entry-native": "github:e53e04ac/file-entry-native",
-    "hold": "github:e53e04ac/hold",
-    "ipp5-types": "github:e53e04ac/ipp5-types"
+    "hold": "github:e53e04ac/hold"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18"
+    "@types/node": "^18.11.18",
+    "ipp5-types": "github:e53e04ac/ipp5-types"
   }
 }
