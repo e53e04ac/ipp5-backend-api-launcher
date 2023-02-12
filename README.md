@@ -6,7 +6,6 @@ npm install e53e04ac/ipp5-backend-api-launcher
 
 ~~~~~ mjs
 import { Ipp5BackendApiLauncher } from 'e53e04ac/ipp5-backend-api-launcher';
-import { Ipp5BackendApiLauncher } from 'e53e04ac/ipp5-backend-api-launcher';
 ~~~~~
 
 ~~~~~ mermaid
@@ -30,13 +29,13 @@ graph RL;
   A ----> B_4;
   A ----> B_5;
   A ----> B_6;
-  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/4ec6e0e9ac76a0a385028e6e334c9ca882f12e67";
-  click B_1 "https://github.com/e53e04ac/event-emitter/tree/684f3b21090807e48917ae6591611f4eb2b1e661";
-  click B_2 "https://github.com/e53e04ac/file-entry-native/tree/d18fec26c8d54d028c89fe513c9e51f713867e44";
-  click B_3 "https://github.com/e53e04ac/hold/tree/67e5b60f9bb3221f8b200107c13e89a604a93631";
+  click B_0 "https://github.com/e53e04ac/azure-terraformer/tree/0894700dac012d6f5e31df50b30ae74e7089478a";
+  click B_1 "https://github.com/e53e04ac/event-emitter/tree/58fd3772aa6977c80111d1af5425c38551c0da3e";
+  click B_2 "https://github.com/e53e04ac/file-entry-native/tree/0e0f87721b3753446d291c2ed8bd1755a851d321";
+  click B_3 "https://github.com/e53e04ac/hold/tree/5dd6f94b8ecd94f98219a7afae52320676380c27";
   click B_4 "https://www.npmjs.org/package/@types/node/v/18.13.0";
-  click B_5 "https://github.com/e53e04ac/file-entry/tree/eb9b340b50a6a171cda08fa63be4e647bd77caba";
-  click B_6 "https://github.com/e53e04ac/ipp5-types/tree/6f3ee419d7cf5ae7f689bd79bde869f462fe30aa";
+  click B_5 "https://github.com/e53e04ac/file-entry/tree/77cbd9d0db1e4a74fd5af363999096d9172bd83d";
+  click B_6 "https://github.com/e53e04ac/ipp5-types/tree/f0ef220175398bc3bab4a468906a94e8446fc893";
 ~~~~~
 
 ~~~~~ mermaid
@@ -69,8 +68,8 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/ipp5-backend-api-launcher";
-    E_0(["Ipp5BackendApiLauncher"]);
-    E_1(["Ipp5BackendApiLauncher"]);
+    E_0(["type Ipp5BackendApiLauncher"]);
+    E_1(["const Ipp5BackendApiLauncher"]);
   end;
   M(["index.d.ts"])
   subgraph "azure-terraformer";
