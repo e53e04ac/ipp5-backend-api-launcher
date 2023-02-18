@@ -109,6 +109,7 @@ const constructor = ((options) => {
                     CUSTOM_EXPRESS_SUBDOMAIN_OFFSET: 2,
                     CUSTOM_EXPRESS_TRUST_PROXY: 'loopback, linklocal, uniquelocal',
                 },
+                space: 4,
             });
         }),
         runAzAcrLogin: hold(async () => {
