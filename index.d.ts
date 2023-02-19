@@ -15,8 +15,6 @@ export declare namespace Ipp5BackendApiLauncher {
 
     type EnvMap = Ipp5BackendApiEnvMap;
 
-    type EventSpecs = Record<never, never>;
-
     type Options = {
         readonly az: ValueOrGet<string>;
         readonly docker: ValueOrGet<string>;
@@ -37,6 +35,8 @@ export declare namespace Ipp5BackendApiLauncher {
         readonly backendIdpTokenUrn: string;
         readonly backendIdpTokenPublicKey: string;
     };
+
+    type EventSpecs = Record<never, never>;
 
     type _Self = {
         readonly options: Get<Options>;
