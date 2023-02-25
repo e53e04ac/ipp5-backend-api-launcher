@@ -85,7 +85,7 @@ const constructor = ((options) => {
             return _self.scriptFile().parent();
         }),
         runDirectory: hold(() => {
-            return _options.tmpDirectory().resolve('ipp5-backend-api-launcher', _options.launchId());
+            return _options.tmpDirectory().resolve(_options.launchId());
         }),
         settingsJson: hold(() => {
             return _self.runDirectory().resolve('settings.json');
